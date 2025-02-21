@@ -1,0 +1,1 @@
+A simple timer or stopwatch can be built in HTML with buttons to start, stop, and reset, while displaying the time in a text element. CSS is used to style the layout and buttons, while JavaScript handles the timing logic, updating the display every second.
