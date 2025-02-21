@@ -1,0 +1,1 @@
+An image slider can be created using HTML to structure the images and navigation buttons, with CSS to style and position the slider elements. JavaScript is used to add functionality, such as automatically transitioning between images or allowing users to manually navigate through them.
