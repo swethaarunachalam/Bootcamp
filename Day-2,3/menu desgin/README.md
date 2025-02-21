@@ -1,0 +1,1 @@
+A menu design in HTML and CSS typically consists of a navigation bar with links to different sections, using unordered lists (<ul>) and list items (<li>), styled with CSS for alignment, hover effects, and colors. The layout can be horizontal or vertical, and CSS media queries can be used to make it responsive across devices
