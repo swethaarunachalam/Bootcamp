@@ -1,0 +1,1 @@
+A portfolio in HTML and CSS showcases personal or professional work through sections like an introduction, projects, skills, and contact information, using elements like <section>, <article>, and <div>. CSS is used to style the layout, typography, and responsiveness, ensuring the portfolio looks appealing and functions well on all devices
