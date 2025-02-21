@@ -1,0 +1,1 @@
+An interactive to-do list can be created using HTML to structure tasks with input fields and buttons, while JavaScript manages adding, removing, and marking tasks as complete. CSS is used to style the list, including different states for completed and pending tasks, making it visually clear and user-friendly.
