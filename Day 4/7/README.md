@@ -1,0 +1,1 @@
+A basic calculator can be built in HTML with buttons for digits and operations, and a display area to show the result. JavaScript is used to handle button clicks, perform calculations, and update the display, while CSS styles the layout and buttons for a clean, functional interface.
