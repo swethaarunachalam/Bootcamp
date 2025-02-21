@@ -1,0 +1,1 @@
+A modal popup is created in HTML with a hidden modal element that contains content and a close button, while CSS styles it to appear centered on the screen. JavaScript is used to trigger the modal's visibility and handle its opening and closing actions based on user interactions.
