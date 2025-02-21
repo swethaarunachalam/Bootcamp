@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body{
+        background-color:lightpink;
+    }
+</style>
+<body>
+    <div class="form-container">
+        <h2 style="color: brown;">Register</h2>
+        <form id="registrationForm" action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" oninput="validateEmail()">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password" oninput="validatePassword()">
+
+            <button type="submit" id="submitBtn">Register</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+    </div>
+</body>
+</html>
