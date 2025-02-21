@@ -1,0 +1,1 @@
+HTML and CSS can be used to structure and style the content, while JavaScript allows toggling the visibility of elements using functions like `document.getElementById().style.display`. By changing the `display` property to "none" or "block", JavaScript can show or hide content interactively.
