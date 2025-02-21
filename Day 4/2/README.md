@@ -1,0 +1,1 @@
+A temperature converter can be built using HTML to create input fields for users to enter temperature values, and JavaScript to perform the conversion between units like Celsius and Fahrenheit. CSS is used to style the form and display the result, making the interface user-friendly and visually appealing.
