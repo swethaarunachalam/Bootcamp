@@ -1,0 +1,1 @@
+Write a Node.js script that accepts a number as a command-line argument and checks if it's even or odd. Use `process.argv` to get the input, convert it to a number, and print `"Even"` if it's divisible by 2; otherwise, print `"Odd"`.
