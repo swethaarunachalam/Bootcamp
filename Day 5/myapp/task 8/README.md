@@ -1,0 +1,1 @@
+Create a Node.js script that recursively traverses a directory and prints the names of all files and subdirectories using the `fs` and `path` modules. Use `fs.readdir()` to read directory contents, check if each item is a file or directory with `fs.stat()`, and recursively call the function for subdirectories, printing each name with `console.log()`.
