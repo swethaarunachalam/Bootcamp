@@ -1,0 +1,1 @@
+Write a Node.js script that accepts a number as a command-line argument and prints its multiplication table up to 10. Use `process.argv` to get the input, convert it to a number, and use a loop to multiply it from 1 to 10, printing each result with `console.log`.
