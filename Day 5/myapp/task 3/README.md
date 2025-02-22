@@ -1,0 +1,1 @@
+Create a Node.js script that accepts a string as a command-line argument and prints its reversed version. Use `process.argv` to get the input, split the string into an array, reverse it, join it back, and display the result using `console.log`.
