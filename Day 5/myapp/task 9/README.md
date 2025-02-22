@@ -1,0 +1,1 @@
+Build a Node.js command-line tool that processes different commands and options using `process.argv` to perform file operations. Use the `fs` module to handle actions like creating (`my-tool create <filename>`) and deleting (`my-tool delete <filename>`) files, checking the command and executing the corresponding function.
