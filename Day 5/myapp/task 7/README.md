@@ -1,0 +1,1 @@
+Create a Node.js web server using the `http` module that listens for incoming requests and serves different content based on the requested route. Use `req.url` to check the path and respond with appropriate messages for `/`, `/about`, and `/contact` using `res.end()`.
