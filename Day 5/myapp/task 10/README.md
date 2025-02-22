@@ -1,0 +1,1 @@
+Create a Node.js script that performs a series of asynchronous operations using promises, ensuring they execute sequentially. Use the `fs.promises` module to read a file, process its content (such as converting text to uppercase), and then write the modified content to a new file, chaining the operations with `.then()` to maintain order.
