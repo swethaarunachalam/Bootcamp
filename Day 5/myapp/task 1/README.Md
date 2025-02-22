@@ -1,0 +1,1 @@
+Create a Node.js script named sum.js that takes two numbers as command-line arguments and prints their sum. Use process.argv to retrieve the arguments, convert them to numbers, add them, and display the result using console.log
