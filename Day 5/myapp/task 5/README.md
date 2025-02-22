@@ -1,0 +1,1 @@
+Create a Node.js script that accepts a file path as a command-line argument and retrieves its metadata using the `fs.stat` method. Extract and print the file's size, creation date, and last modified date from the returned `stats` object using `console.log`.
