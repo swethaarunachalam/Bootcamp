@@ -1,0 +1,1 @@
+Write a Node.js script that filters an array of objects based on a specific property value, such as finding users older than 25. Define an array of user objects, use the `filter()` method to extract users who meet the condition, and print the filtered result using `console.log`.
