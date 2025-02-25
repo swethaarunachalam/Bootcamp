@@ -1,0 +1,1 @@
+Enhance the POST `/users` endpoint by adding input validation to check if required fields, such as `name` and `id`, are present and of the correct type. If validation fails, return a `400 Bad Request` response with an error message; otherwise, add the valid user to the array and return it as a JSON response.
