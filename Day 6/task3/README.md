@@ -1,0 +1,1 @@
+To create an API endpoint at `/users/:id`, define a route in an Express.js server that extracts the `id` parameter from the request. Use this ID to find and return the matching user from a hardcoded array, such as `[{ id: 1, name: "swetha" }, { id: 2, name: "arunachalam" },{ id: 3, name: "padma" }]`, or respond with a 404 error if the user is not found.
