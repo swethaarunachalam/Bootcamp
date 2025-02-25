@@ -1,0 +1,1 @@
+To create an API endpoint at `/users`, set up an Express.js server and define a route that responds with a hardcoded JSON array of users. In the route handler, return an array like `[{ id: 1, name: "swetha" }, { id: 2, name: "padma" }]` when a GET request is made to `/users`.
