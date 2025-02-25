@@ -1,0 +1,1 @@
+Set up an Express.js server and enable JSON parsing by using `express.json()` middleware. Create a POST route at `/users` that extracts user data from the request body, adds it to a hardcoded array, and responds with the newly added user in JSON format.
