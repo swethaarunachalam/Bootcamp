@@ -1,0 +1,1 @@
+Use a tool like Swagger or Postman to create API documentation that details each endpoint, including request methods, parameters, response formats, and possible error codes. Define the API structure using OpenAPI specifications in Swagger or generate documentation in Postman by adding request examples, descriptions, and response expectations for better usability.
