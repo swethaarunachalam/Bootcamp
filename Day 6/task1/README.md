@@ -1,0 +1,1 @@
+To create a simple Express.js server, first install Express using `npm install express` and create a file named `server.js`. In the file, set up an Express app that listens on port 3000 and responds with `{ message: "Hello World" }` in JSON format when the root URL (`/`) is accessed.
