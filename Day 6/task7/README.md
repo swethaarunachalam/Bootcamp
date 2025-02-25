@@ -1,0 +1,1 @@
+Implement proper error handling for all endpoints by checking for invalid requests, missing parameters, or nonexistent resources, and return appropriate HTTP status codes such as `400 Bad Request` or `404 Not Found`. Use middleware to catch unexpected errors and send a `500 Internal Server Error` response with a JSON message to ensure a consistent error-handling approach.
