@@ -1,1 +1,1 @@
-To create an API endpoint that accepts a POST request at `/users`, set up an Express.js server with middleware to parse JSON data using `express.json()`. In the route handler, receive user data from the request body, add it to a hardcoded array, and return the newly added user as a JSON response.
+
