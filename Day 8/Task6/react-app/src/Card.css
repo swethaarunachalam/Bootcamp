@@ -1,0 +1,32 @@
+.student-card {
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .freshman {
+    background-color: palevioletred;
+  }
+  
+  .sophomore {
+    background-color: red;
+    color: black;
+  }
+  
+  .junior {
+    background-color: blue;
+  }
+  
+  .senior {
+    background-color:purple;
+  }
+  
+  .container {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+  }
+  
