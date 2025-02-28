@@ -1,0 +1,19 @@
+
+.app-container {
+  text-align: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.const students{
+  text-align: center;
+}
+.boby{
+  background-color: aqua;
+}
