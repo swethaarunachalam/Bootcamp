@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Styling for the main container */
+.p-4 {
+  padding: 16px;
+  background-color: #f0f4f8; /* Light blue-gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.text-xl {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+/* Table styling */
+.w-full {
+  width: 100%;
+  background-color: #ffffff; /* White background for the table */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+/* Table header */
+.bg-gray-200 {
+  background-color: #0077b6; /* Dark blue header */
+  color: #ffffff; /* White text */
+}
+
+th {
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Table rows */
+tr.text-center {
+  text-align: center;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #caf0f8; /* Light cyan */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #90e0ef; /* Light blue */
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #48cae4; /* Bright cyan */
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
