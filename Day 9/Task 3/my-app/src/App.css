@@ -1,0 +1,13 @@
+/* Student Card */
+.student-card {
+  background: #e3f2fd; /* Light blue background */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.student-card:hover {
+  transform: scale(1.05);
+  background: #bbdefb; /* Slightly darker blue on hover */
+}

@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.student-list-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff; /* White container for contrast */
+  color: #2c3e50;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.student-list-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #34495e;
+  font-weight: bold;
+}
+
+/* Scrollable horizontal container */
+.student-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+/* Individual student card */
+.student-card {
+  background: #ffcccb; /* Soft red */
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: left;
+  scroll-snap-align: center;
+  border-left: 5px solid #ff6f61;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect for cards */
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Student info */
+.student-info p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Hover text effect */
+.student-info p:hover {
+  color: #ff6f61;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Scrollbar customization */
+.student-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.student-grid::-webkit-scrollbar-thumb {
+  background-color: #ff6f61;
+  border-radius: 10px;
+}
+
+.student-grid::-webkit-scrollbar-track {
+  background: #dcdcdc;
+}
+
+/* Loading text */
+.loading-text {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-top: 20px;
+  font-weight: bold;
+}
