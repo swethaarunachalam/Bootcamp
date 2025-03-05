@@ -1,0 +1,87 @@
+
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Soft pink gradient */
+  color: #6a0dad; /* Purple text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* AppBar Styling */
+.MuiAppBar-root {
+  background: linear-gradient(90deg, #ff69b4, #ff1493); /* Bright pink */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Container Styling */
+.MuiContainer-root {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Input Styling */
+.MuiTextField-root {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.MuiInputBase-input {
+  color: #6a0dad; /* Purple */
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.MuiOutlinedInput-root:hover {
+  border-color: #ff69b4;
+}
+
+/* Student Card Styling */
+.MuiCard-root {
+  background: linear-gradient(145deg, #ffb6c1, #ff69b4); /* Pink shades */
+  color: #6a0dad; /* Purple text */
+  border-radius: 16px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Typography */
+.MuiTypography-h4 {
+  color: #6a0dad; /* Purple */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading Spinner */
+.MuiCircularProgress-root {
+  color: #ff1493 !important; /* Dark pink */
+}
+
+/* Alert Box */
+.MuiAlert-root {
+  background: rgba(255, 69, 58, 0.8);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+/* No Students Found Message */
+.no-students {
+  font-size: 18px;
+  color: #6aad0d; /* Purple */
+  font-weight: bold;
+  text-align: center;
+}
