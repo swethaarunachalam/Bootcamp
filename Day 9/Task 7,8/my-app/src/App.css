@@ -1,0 +1,57 @@
+/* Student List Container */
+.student-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Student Card */
+.student-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 250px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  border-radius: 12px;
+  background: #ffffff; /* Solid background color */
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.student-card:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .student-list-container {
+    padding: 10px;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .student-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .student-card {
+    width: 100%;
+  }
+}
